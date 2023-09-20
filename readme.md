@@ -1,18 +1,23 @@
 # This project was made for as an Upwork submission requirement
 
-This is the readme file, i will try an explain this works form here
+This is the readme file, I will try an explain how this works form here
+This program simply runs by writing to COM 1 and reading what was writing to COM 1 from COM 2
 
-To begin
+# To begin
+
 
 ``` bash
 pip install requirements.txt
 ```
 
 
-Then run
+# Then run
 ```bash
 py main.py
 ```
+
+
+# Sample output
 
 For my virtual port emulator, I used [Virtual Serial Port Driver](https://www.virtual-serial-port.org/), where I created a pair between COM 1 and COM 2
 
